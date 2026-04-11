@@ -1,8 +1,8 @@
 class Tuiwarden < Formula
   desc "Bitwarden terminal UI"
   homepage "https://github.com/leonid-shutov/tuiwarden"
-  url "https://registry.npmjs.org/tuiwarden/-/tuiwarden-1.0.0-alpha.1.tgz"
-  sha256 "139f6e7214924a730cfeec69cf8ce8ea44096cdbd4af8245dbaf13138b720619"
+  url "https://registry.npmjs.org/tuiwarden/-/tuiwarden-1.0.0-alpha.2.tgz"
+  sha256 "76e594ee989a05f30586d154ae4a795aa0e6e5984a19bed85551ce1dedad243b"
   license "MIT"
 
   depends_on "node"
