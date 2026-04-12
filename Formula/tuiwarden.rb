@@ -8,7 +8,7 @@ class Tuiwarden < Formula
   depends_on "node"
 
   def install
-    system "npm", "install", *std_npm_args
+    system "npm", "install", *std_npm_args.reject { |a| a.include?("min-release-age") }
     bin.install_symlink libexec.glob("bin/*")
   end
 
